@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 550px;
+	font-family: 'Inter', sans-serif;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #F55A5A;
+	color: white;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 45px;
+}
+
+.nav-logo {
+	height: 24px;
+	width: 24px;
+	margin-right: 7px;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+	margin-top: 36px;
+}
+
+.card-img {
+	height: 168px;
+	width: 125px;
+}
+.card-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: 400;
+	width: 326px;
+}
+
+.location-wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.map-logo {
+	width: 7px;
+	height: 10px;
+	margin-right: 5px;
+}
+
+.card-location {
+	letter-spacing: 1.5px;
+	margin-right: 5px;
+}
+
+.link {
+	color: grey;
+}
+
+.card-title {
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.card-date {
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.card-desctiption {
+	line-height: 15px;
+	margin-top: 5px;
+}
+
+
+
+
